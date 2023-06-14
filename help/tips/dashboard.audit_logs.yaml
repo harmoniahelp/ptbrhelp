@@ -1,0 +1,31 @@
+#This is popup help messages for the Admin Panel -> Dashboard  -> Audit Logs page
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+---
+audit_logs:
+  title: Logs de auditoria
+  content: >
+    Aqui você encontrará todas as atividades escritas no log de auditoria, enquanto o plugin de auditoria estiver habilitado.
+  links:
+    - 
+      title: Configurar Plugins
+      href: /scp/plugins.php
+date_span:
+  title: Intervalo de data
+  content: >
+    Selecione o intervalo entre datas que você gostaria de ver na classe <span="doc-desc-title">Logs de auditoria</span>.
+type:
+  title: Tipo
+  content: >
+    Escolha para qual tipo de objeto você gostaria de ver Auditado.
+events:
+  title: Eventos
+  content: >
+    Estreitar os resultados com base em um Evento específico.

@@ -1,0 +1,79 @@
+#This is popup help messages for the Staff Panel -> Dashboard -> My Profile
+#Fields:
+#title - Shown in bold at the top of the popover window
+#content - The body of the help popover
+#links - List of links shows below the content
+#title - Link title
+#href - href of link (links starting with / are translated to the
+#helpdesk installation path)
+#The key names such as 'helpdesk_name' should not be translated as they
+#must match the HTML #ids put into the page template.
+---
+contact_information:
+  title: Informações de contato
+  content: >
+
+username:
+  title: Nome de usuário
+  content: >
+    Somente aqueles Agentes com status de Administrador podem alterar um nome de usuário. Se você é um Agente com privilégios de Administrador, você pode fazer isso selecionando um Agente para editar na tabela <span class="doc-desc-title">Funcionários</span>.
+  links:
+    - 
+      title: Alterar um nome de usuário como Administrador
+      href: /scp/staff.php
+config2fa:
+  title: Autenticação de dois fatores
+  content: >
+    A autenticação de dois fatores acrescenta uma camada extra de segurança ao efetuar login no helpdesk. Uma vez que você envie corretamente seu nome de usuário e senha, você precisará digitar um token para finalizar o login no helpdesk.
+time_zone:
+  title: Fuso Horário
+  content: >
+
+daylight_saving:
+  title: Horário de Verão
+  content: >
+
+maximum_page_size:
+  title: Tamanho Máximo de Página
+  content: >
+
+auto_refresh_rate:
+  title: Taxa de Atualização Automática
+  content: >
+
+default_signature:
+  title: Assinatura Padrão
+  content: >
+
+default_paper_size:
+  title: Tamanho de Papel Padrão
+  content: >
+
+show_assigned_tickets:
+  title: Mostrar Chamados Atribuídos
+  content: >
+    <p>A ativação dessa opção substituirá a configuração global para ocultar os chamados atribuídos das filas abertas.</p> <p class="info-banner"> <i class="icon-info-sign"></i> Esta opção só é possível quando os chamados atribuídos são excluídos de maneira global. </p>
+password:
+  title: Senha
+  content: >
+
+current_password:
+  title: Senha Atual
+  content: >
+
+new_password:
+  title: Nova Senha
+  content: >
+
+confirm_new_password:
+  title: Confirmar a Nova Senha
+  content: >
+
+signature:
+  title: Assinatura
+  content: >
+    Crie uma <span class="doc-desc-title">assinatura</span> opcional para aparecer no final do seu chamado. Se essa <span class="doc-desc-title">assinatura</span> irá aparecer ou não, depende do <span class="doc-desc-title"> Modelo de Email</span> que será usado em uma resposta de chamado.
+  links:
+    - 
+      title: Criar modelos de E-mails no Painel de Administração
+      href: /scp/templates.php
