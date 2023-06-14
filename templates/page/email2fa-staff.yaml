@@ -1,0 +1,9 @@
+#email2fa-staff.yaml
+#Template of the email sent to staff members when using the Email
+#Two Factor Authentication
+---
+notes: >
+  Este modelo define o e-mail enviado para a equipe que usa o e-mail para autenticação de dois fatores
+name: "Autenticação de dois fatores do osTicket"
+body: >
+  <h3><strong>Oi %{staff.name.first},</strong></h3> <div> Você acabou de entrar no helpdesk em %{url}.<br /> <br /> Use o código de verificação abaixo para terminar de entrar no helpdesk.<br /> <br /> %{otp}<br /> <br /> <em style="font-size: small">Seu Sistema de Suporte ao Cliente amigável</em> <br /> <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc" alt="Powered by osTicket" width="126" height="19" style="width: 126px" /> </div>

@@ -1,0 +1,30 @@
+#Email template: transfer.alert.yaml
+#Sent to staff members when a ticket is assigned to them. Tickets can be
+#assigned automatically by the system or manually by another staff member.
+#Use %{assigner} to distinguish who made the assignment.
+---
+notes: |
+  Enviar para os agentes quando um chamado é transferido para um departamento
+  do qual são membros.
+subject: |
+  Chamado #%{ticket.number} transferido para - %{ticket.dept.name}
+body: |
+  <h3>Olá %{recipient.name},</h3>
+  O Ticket <a href="%{ticket.staff_link}">#%{ticket.number}</a> foi
+  transferido para o departamento %{ticket.dept.name} ,por
+  <strong>%{staff.name.short}</strong>
+  <br>
+  <br>
+  <blockquote>
+      %{comments}
+  </blockquote>
+  <hr>
+  <div>Para visualizar ou responder ao ticket, por favor <a
+  href="%{ticket.staff_link}">Entre</a> no sistema de ticket de suporte.
+  </div>
+  <em style="font-size: small; ">Seu Sistema de Suporte ao Cliente amigável 
+  </em>
+  <br>
+  <a href="https://osticket.com/"><img width="126" height="19"
+      alt="Desenvolvido por osTicket" style="width: 126px;"
+      src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

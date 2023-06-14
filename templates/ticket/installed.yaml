@@ -1,0 +1,47 @@
+#Welcome ticket template
+#When the system if first installed and the installer finishes setting up
+#the database, it creates a first ticket with a welcome message to the
+#administrator
+---
+deptId: 1 #support
+topicId: 1 #support
+name: Atendimento osTicket
+email: support@osticket.com
+source: Web #notrans
+subject: osTicket foi instalado!
+message: |
+  <p>
+  Obrigado por escolher o osTicket.
+  </p><p>
+  Por favor, certifique-se de entrar no <a
+  href="https://forum.osticket.com">osTicket forums</a> and our <a
+  href="https://osticket.com">mailing list</a> para se manter atualizado
+  sobre as últimas notícias, alertas de segurança e atualizações. Os fóruns osTicket são
+  também um ótimo lugar para obter assistência, orientação, dicas e ajuda de
+  outros usuários do osTicket. Além dos fóruns, o wiki osTicket
+  fornece uma coleção útil de materiais educacionais, documentação,
+  e notas da comunidade. Agradecemos suas contribuições para o
+  comunidade osTicket.
+  </p><p>
+  Se você está procurando um maior nível de suporte, nós fornecemos
+  serviços profissionais e suporte comercial com resposta garantida
+  horários e acesso à equipe de desenvolvimento principal. Nós também podemos ajudar
+  personalizar osTicket ou até mesmo adicionar novos recursos ao sistema para atender às suas
+  necessidades únicas.
+  </p><p>
+  Se a ideia de gerenciar e atualizar esta instalação osTicket é
+  assustador, você pode tentar o osTicket como um serviço hospedado em <a
+  href="https://supportsystem.com">https://supportsystem.com/</a> --
+  nenhuma instalação necessária e podemos importar seus dados! Com
+  A infraestrutura turnkey do SupportSystem, você obtém osTicket no seu melhor,
+  deixando você livre para se concentrar em seus clientes sem o fardo de fazer
+  certifique-se de que o aplicativo seja estável, mantido e seguro.
+  </p><p>
+  Cheers,
+  </p><p>
+  -<br/>
+  osTicket Team https://osticket.com/
+  </p><p>
+  <strong>PS.</strong> Don't just make customers happy, make happy
+  customers!
+  </p>
